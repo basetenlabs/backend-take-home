@@ -12,7 +12,6 @@ Feel free to replace any of those, we've provided a boilerplate to ease the star
 
 There's a simple makefile available to help starting commands
 
-First:
 ```sh
 # Install dependencies
 make install

@@ -54,14 +54,19 @@ MOCK_ENDPOINT = Endpoint(url="http://localhost:8001/invoke")
 #################
 @strawberry.type
 class Organization:
+    id: str
     name: str
 
 
 @strawberry.type
 class Query:
     @strawberry.field
-    async def users(self, id: str) -> List[Organization]:
-        return [Organization(name="Baseten"), Organization(name="Strawberry")]
+    async def organizations(self) -> List[Organization]:
+        return [Organization(id="0", name="Baseten"), Organization(id="1",name="Strawberry")]
+
+    @strawberry.field
+    async def organization(self, id: str) -> Organization:
+        raise Unimplemented()
 
 
 @strawberry.type

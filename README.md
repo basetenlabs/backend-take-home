@@ -1,6 +1,6 @@
 A boilerplate for the baseten backend take home challenge using async python.
 
-**See [problem.md] for the problem definition**
+**See [PROBLEM.md](PROBLEM.md) for the problem definition**
 
 # Library Docs
 

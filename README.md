@@ -1,5 +1,7 @@
 A boilerplate for the baseten backend take home challenge using async python.
 
+**See [problem.md] for the problem definition**
+
 # Library Docs
 
 - Strawberry: https://strawberry.rocks/docs

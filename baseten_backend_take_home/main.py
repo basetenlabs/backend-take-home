@@ -40,7 +40,7 @@ class Endpoint(BaseModel):
 
 
 DEFAULT_ENDPOINT = Endpoint(
-    url="https://app.staging.baseten.co/applications/Vqmogn0/worklets/VBnodk0/invoke",
+    url="https://app.staging.baseten.co/applications/Vqmogn0/worklets/VBnodk0/invoke",  # noqa
     authorization="Api-Key IR5hVxK1.FlYV3hmIazD7FGvXPacQnN38wgw7CSSE",
 )
 

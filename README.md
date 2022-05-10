@@ -24,3 +24,16 @@ make start
 # Run linters+formatters
 make lint
 ```
+
+# Testing
+
+Once the server runs `make start` you can open `http://localhost:8000/graphql` and test the API with a sample graphql query
+
+```graphql
+query {
+  organizations {
+    name
+    id
+  }
+}
+```

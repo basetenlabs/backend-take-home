@@ -1,5 +1,7 @@
 .PHONY: mock_server start migrate lint install
 
+all: install start
+
 install:
 	poetry install
 

@@ -62,7 +62,10 @@ class Organization:
 class Query:
     @strawberry.field
     async def organizations(self) -> List[Organization]:
-        return [Organization(id="0", name="Baseten"), Organization(id="1",name="Strawberry")]
+        return [
+            Organization(id="0", name="Baseten"),
+            Organization(id="1", name="Strawberry"),
+        ]
 
     @strawberry.field
     async def organization(self, id: str) -> Organization:

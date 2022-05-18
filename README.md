@@ -4,7 +4,7 @@ A boilerplate for the baseten backend take home challenge using async python. It
 
 # Prerequisite
 
-- python > 3.9
+- python >= 3.9
 - [poetry](python-poetry.org/)
 
 # Run

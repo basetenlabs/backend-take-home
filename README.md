@@ -1,4 +1,4 @@
-A boilerplate for the baseten backend take home challenge using async python.
+A boilerplate for the baseten backend take home challenge using async python. It is optional to use this boilerplate but we do think it's gonna save you some precious time.
 
 **See [PROBLEM.md](PROBLEM.md) for the problem definition**
 

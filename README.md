@@ -2,7 +2,12 @@ A boilerplate for the baseten backend take home challenge using async python.
 
 **See [PROBLEM.md](PROBLEM.md) for the problem definition**
 
-# Library Docs
+# Prerequisite
+
+- python > 3.9
+- [poetry](python-poetry.org/)
+
+# Libraries Documentation
 
 - Strawberry: https://strawberry.rocks/docs
 - FastAPI: https://fastapi.tiangolo.com/
@@ -12,7 +17,7 @@ Feel free to replace any of those, we've provided a boilerplate to ease the star
 
 # Run
 
-There's a simple makefile available to help starting commands
+There's a simple makefile available to help starting commands, you can read the makefile to start the project manually.
 
 ```sh
 # Install dependencies

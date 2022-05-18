@@ -1,4 +1,4 @@
-.PHONY: mock_server start migrate lint install
+.PHONY: all mock_server start migrate lint install
 
 all: install start
 

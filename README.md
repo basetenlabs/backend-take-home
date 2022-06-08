@@ -51,5 +51,6 @@ query {
 - Strawberry: https://strawberry.rocks/docs
 - FastAPI: https://fastapi.tiangolo.com/
 - AIOHTTP: https://docs.aiohttp.org/en/stable/
+- Pydantic: https://pydantic-docs.helpmanual.io/
 
 Feel free to replace any of those, we've provided a boilerplate to ease the start of the take home and free you some time.
